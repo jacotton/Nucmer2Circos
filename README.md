@@ -13,15 +13,25 @@ quite a lot of options to filter hits and control the circos output. With a bit 
 options are:
 
 INPUT OPTIONS:
+
 	--coord-file	pass a coordinate file. I assume its -dtlro format - i.e. 13 columns
+
 	--promer	deltafile is from promer - expect extra columns!
+
 	--parse_contig_names	by default, I try and keep the contig ID passed to circos the same as the ID in the input files.. but if you have special characters (e.g. ':') this upsets circos. Use this flag! - your printed names will be consistent, but your circos files won't use these, so it will  be harder to make sense of them / modify thing downstream of this script. Might make this default at some point in future..
+
 	--query_contigs_to_keep	by default, I keep all contigs that have links. If this is a filename, read this and just keep these
+
 	--ref_contigs_to_keep	by default, I keep all contigs that have links. If this is a filename, read this and just keep these
 
+
+
 DISPLAY/OUTPUT OPTIONS:
+
 	--min_hit_len=1000	length of smallest hit (passed to show-coords with -L flag)
+
 	--min_chr_len=1000	length of smallest contig/scaffold/chromosome to include
+
 	--min_query_chr_len=1000	length of smallest QUERY contig/scaffold/chromosome to include (overrides min_chr_len)
 	--min_ref_chr_len=1000	length of smallest REF contig/scaffold/chromosome to include (overrides min_chr_len)
 	--ribbons	use ribbons rather than thin links
