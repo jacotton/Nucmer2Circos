@@ -10,7 +10,6 @@ This script might/should/sometimes writes all the input files circos needs, but 
 quite a lot of options to filter hits and control the circos output. With a bit of patience you can make reasonably pretty output like this:
 ![example plot](circos_example.png)
 
-options are:
 
 INPUT OPTIONS:
 
