@@ -1,6 +1,6 @@
 # Nucmer.2.circos.pl
 
-A simple-ish perl script that takes output from nucmer or promer in the mummer package and creates
+A simple perl script that takes output from nucmer or promer in the mummer package and creates
 input files that should make reasonable pretty circos 'ribbon' plots of the similarity hits.
 
 usage is: perl Nucmer.2.circos.pl [options] <deltafile>
